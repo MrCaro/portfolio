@@ -1,0 +1,55 @@
+@import "tailwindcss/base";
+
+body {
+    background: #2D2E32;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 57px;
+    line-height: 67px;
+    color: rgba(255, 255, 255, 0.05);
+}
+
+h2 {
+    font-weight: 900;
+}
+
+p {
+    font-weight: 100;
+    color: #828282;
+}
+
+#logo {
+    display: block;
+    margin: auto 0 auto auto;
+}
+
+.sub-title {
+    text-transform: capitalize;
+    color: white;
+}
+
+.sub-title > span {
+    color: #FF2E5B;
+}
+
+.neumorphism {
+    height: auto;
+    box-shadow: -5px -5px 15px 0 #7070705c, 5px 5px 15px 0 #0000008c;
+}
+
+.card {
+    border-radius: 10px;
+    border: solid 1px #70707012;
+}
+
+.mainCtas {
+    height: 56px;
+    width: 56px;
+}
+
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
