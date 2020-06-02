@@ -60,7 +60,7 @@
       <change beforePath="$PROJECT_DIR$/../../package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../public/.htaccess" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../public/css/app.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../public/css/glider.min.css" beforeDir="false" />
@@ -186,11 +186,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/postcss.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -226,7 +235,6 @@
         <option value="$PROJECT_DIR$/tailwind.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/assets/tailwind.css" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/tailwind.config.js" />
         <option value="$PROJECT_DIR$/src/assets/css/tailwind.css" />
         <option value="$PROJECT_DIR$/src/components/header.js" />
@@ -235,6 +243,7 @@
         <option value="$PROJECT_DIR$/src/App.jsx" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/postcss.config.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -325,12 +334,12 @@
       <option name="presentableId" value="Default" />
       <updated>1590885421992</updated>
       <workItem from="1590885424238" duration="7000" />
-      <workItem from="1590885501740" duration="34909000" />
+      <workItem from="1590885501740" duration="35043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34916000" />
+    <option name="totallyTimeSpent" value="35050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="958" extended-state="6" />
@@ -508,13 +517,6 @@
     <entry file="file://$PROJECT_DIR$/src/assets/img/test-logo-anim.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tailwind.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -571,6 +573,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
