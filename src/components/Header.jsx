@@ -16,7 +16,7 @@ const Header = () => {
             </div>
             <div className="grid md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1">
                 <div className="md:col-span-2 sm:col-span-1 xs:col-span-1 xs:mb-16">
-                    <div className="mr-10 ml-auto md:w-4/6 xs:w-full sm:py-8 sm:px-16 xs:py-4 xs:px-8 neumorphism card">
+                    <div className="mr-10 ml-auto md:w-4/6 sm:w-full xs:w-full sm:py-8 sm:px-16 xs:py-4 xs:px-8 neumorphism card">
                         <h2 className="sub-title mb-4 md:text-2xl xs:text-lg">
                             i am a <span>front-end developer</span>
                         </h2>

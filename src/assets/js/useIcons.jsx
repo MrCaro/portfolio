@@ -7,9 +7,9 @@ const useIcons = (props) => {
     const sIcon = social;
 
     const IconHeader = () => (
-        <div className="flex sm:content-between flex-wrap xs:justify-between">
+        <div className="flex flex-wrap content-between sm:justify-between xs:justify-between">
             {hIcon.map((icon) => (
-                <div key={icon.label} className="sm:w-full">
+                <div key={icon.label} className="md:w-full">
                     <div className="neumorphism card mainCtas">
                         <a className="sm:flex sm:flex-row" href={icon.href} target="_blank">
                             <img className="p-5" src={icon.img} alt={icon.label}/>

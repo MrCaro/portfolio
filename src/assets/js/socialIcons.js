@@ -12,7 +12,7 @@ export default
     {
         "label": "linkedin",
         "img": linkedIcon,
-        "url": "https://www.linkedin.com/in/carlos-j-caro-a142777a/"
+        "url": "https://www.linkedin.com/in/carlos-caro94/"
     },
     {
         "label": "dribbble",
