@@ -19,7 +19,8 @@ h2 {
 
 p {
     font-weight: 100;
-    color: #828282;
+    /*color: #828282;*/
+    color: white;
 }
 
 #logo {
@@ -61,3 +62,19 @@ p {
 
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+#scrollBar::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
+    display: block;
+}
+
+#scrollBar::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+}
+
+#scrollBar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(90deg, #ff3e6e, #ffa54b);
+}

@@ -7,14 +7,16 @@ const useIcons = (props) => {
     const sIcon = social;
 
     const IconHeader = () => (
-        <div className="flex flex-wrap content-between sm:justify-between xs:justify-between">
+        <div className="flex justify-between md:content-between md:flex-wrap">
             {hIcon.map((icon) => (
-                <div key={icon.label} className="md:w-full">
+                <div key={icon.label} className="flex flex-row w-auto md:w-full">
                     <div className="neumorphism card mainCtas">
-                        <a className="sm:flex sm:flex-row" href={icon.href} target="_blank">
+                        <a className="sm:flex sm:flex-row" href={icon.href} target="_blank" rel="noopener noreferrer">
                             <img className="p-5" src={icon.img} alt={icon.label}/>
-                            <p className="m-auto sm:ml-5 xs:mt-5">{icon.label}</p>
                         </a>
+                    </div>
+                    <div className="flex md:items-stretch">
+                        <p className="m-auto ml-5">{icon.label}</p>
                     </div>
                 </div>
             ))}
@@ -22,18 +24,16 @@ const useIcons = (props) => {
     );
 
     const IconSocial = () => (
-        <div className="flex my-24 xs:justify-between">
-            <div className="w-full xs:hidden"></div>
-            {sIcon.map((icon) => (
-                <div key={icon.label} className="w-auto sm:mx-8">
-                    <div className="m-auto neumorphism card mainCtas">
-                        <a className="" href={icon.url} target="_blank">
-                            <img className="p-5" src={icon.img} alt=""/>
-                        </a>
-                    </div>
+        <div className="flex justify-between my-24 md:justify-center">
+        {sIcon.map((icon) => (
+            <div key={icon.label} className="w-auto md:mx-8">
+                <div className="neumorphism card mainCtas">
+                    <a className="" href={icon.url} target="_blank">
+                        <img className="p-5" src={icon.img} alt=""/>
+                    </a>
                 </div>
-            ))}
-            <div className="w-full xs:hidden"></div>
+            </div>
+        ))}
         </div>
     );
 

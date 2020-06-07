@@ -5,11 +5,16 @@ module.exports = {
   ],
   theme: {
     screens: {
-      xs: {'min' : '0','max' : '640px'},
       sm: '640px',
       md: '768px',
       lg: '1024px',
       xl: '1280px',
+    },
+    height: {
+      80: '80vh'
+    },
+    minWidth: {
+      'sm': '310px'
     },
     extend: {
         colors: {
@@ -18,10 +23,10 @@ module.exports = {
             dark: 'rgba(255, 255, 255, 0.05)',
             light: '#717480'
           }
-        }
-      }
+        },
+      },
     },
     variants: {},
     plugins: [],
-}
+};
 
