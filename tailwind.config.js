@@ -22,7 +22,8 @@ module.exports = {
           }
         },
         height: {
-          80: '80vh',
+            80: '80vh',
+            100: '100vh'
         },
         inset: {
           70: '70%',

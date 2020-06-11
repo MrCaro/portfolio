@@ -7,7 +7,7 @@ const Content = () => {
     const [active, setActive] = useState("frontend");
 
     return (
-        <div className="flex flex-col h-80 md:flex-row md:px-24">
+        <div className="flex flex-col md:h-80 h-100 md:flex-row md:px-24">
             <div id="scrollBar" className="flex flex-row md:flex-col w-full md:w-1/2 overflow-auto">
                 {cards.map((singleCard) => (
                     <div className="min-w-sm mx-16 my-10 py-4 px-8 sm:py-8 sm:px-16 neumorphism card">
