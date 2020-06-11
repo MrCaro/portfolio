@@ -10,11 +10,8 @@ module.exports = {
       lg: '1024px',
       xl: '1280px',
     },
-    height: {
-      80: '80vh'
-    },
     minWidth: {
-      'sm': '310px'
+      'sm': '410px'
     },
     extend: {
         colors: {
@@ -23,6 +20,15 @@ module.exports = {
             dark: 'rgba(255, 255, 255, 0.05)',
             light: '#717480'
           }
+        },
+        height: {
+          80: '80vh',
+        },
+        inset: {
+          70: '70%',
+        },
+        zIndex: {
+            '-1': '-1',
         },
       },
     },

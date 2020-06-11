@@ -1,6 +1,5 @@
 import codeIcon from '../img/icon-code.png';
-import resumeIcon from '../img/icon-resume.png';
-import resumePdf from '../docs/Resume-CarlosCaro-2020.pdf'
+import codeUI from '../img/icon-ui-inactive.png';
 
 export default
 [
@@ -11,20 +10,20 @@ export default
         "description": "Creating digital ideas by crushing the keyboard…",
     },
     {
-        "label": "frontend",
-        "title": "Front-End",
+        "label": "uidesign",
+        "title": "UI Design",
+        "icon": codeUI,
+        "description": "Creating digital ideas by crushing the keyboard…",
+    },
+    {
+        "label": "3dmodeling",
+        "title": "3D Modeling",
         "icon": codeIcon,
         "description": "Creating digital ideas by crushing the keyboard…",
     },
     {
-        "label": "frontend",
-        "title": "Front-End",
-        "icon": codeIcon,
-        "description": "Creating digital ideas by crushing the keyboard…",
-    },
-    {
-        "label": "frontend",
-        "title": "Front-End",
+        "label": "aboutme",
+        "title": "About Me",
         "icon": codeIcon,
         "description": "Creating digital ideas by crushing the keyboard…",
     },
