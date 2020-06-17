@@ -17,6 +17,10 @@ h2 {
     font-weight: 900;
 }
 
+h3 {
+    color: #717480;
+}
+
 p {
     font-weight: 100;
     /*color: #828282;*/
@@ -26,6 +30,32 @@ p {
 #logo {
     display: block;
     margin: auto 0 auto auto;
+}
+
+#swipe {
+    -webkit-animation : swipeAnim 3s infinite;
+    -moz-animation    : swipeAnim 3s infinite;
+    -o-animation      : swipeAnim 3s infinite;
+    animation         : swipeAnim 3s infinite;
+    position: absolute;
+}
+
+@keyframes swipeAnim {
+    from {
+        transform : scale(0.3);
+        opacity   : 0.25;
+        left: 0;
+    }
+    50% {
+        transform : scale(0.5);
+        opacity   : 0.5;
+        left: 20%;
+    }
+    to {
+        transform : scale(1);
+        opacity   : 1;
+        left: 40%;
+    }
 }
 
 .sub-title {

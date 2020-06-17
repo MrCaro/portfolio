@@ -2,6 +2,7 @@ import React from 'react';
 import Icons from '../assets/js/useIcons';
 import Logo from '../assets/img/test-logo-anim-5.gif';
 import carlos from '../assets/img/artboard–1.png';
+import carlos2 from '../assets/img/artboard–2.png';
 
 const Header = () => {
 

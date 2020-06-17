@@ -15,7 +15,7 @@ module.exports = {
     },
     extend: {
         colors: {
-          cc_magenta: '#ff5c4b',
+          cc_magenta: '#FF2E5B',
           cc_gray: {
             dark: 'rgba(255, 255, 255, 0.05)',
             light: '#717480'
