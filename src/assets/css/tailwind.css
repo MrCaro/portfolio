@@ -35,6 +35,7 @@ p {
     width: 256px;
     height: 550px;
     z-index: 10;
+    border: solid 1px black;
     border-radius: 25px !important;
     -webkit-border-radius: 25px !important;
     -moz-border-radius: 25px !important;
