@@ -28,7 +28,7 @@ p {
     color: white;
 }
 
-#iframe-mobile {
+#iframe-mobile, iframe {
     position: absolute;
     top: 6%;
     left: 30px;

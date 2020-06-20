@@ -25,11 +25,11 @@ const useShowSection = (props) => {
                 <div className="absolute top-70 left-0 right-0 mx-auto">
                     <img className="m-auto" src={show.img} alt=""/>
                 </div>
-                <div className="absolute" style={{top: "100%"}}>
+                <div id="iframe-mobile" className="absolute" style={{top: "100%", overflow: "hidden"}}>
                     <img src={Iphone} alt=""/>
                     <iframe
                             src="https://travel-app-carlos-caro.herokuapp.com/"
-                            id="iframe-mobile"
+
                     >
                     </iframe>
                 </div>
