@@ -579,7 +579,8 @@ video {
 }
 
 body {
-  background: #2D2E32;
+  /*background: #2D2E32;*/
+  background: #1A1E2C;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -605,33 +606,43 @@ p {
   color: white;
 }
 
+iframe {
+  position: absolute;
+  top: 6%;
+  left: 30px;
+  width: 256px;
+  height: 550px;
+  z-index: 10;
+  border-radius: 25px;
+}
+
 #logo {
   display: block;
   margin: auto 0 auto auto;
 }
 
 #swipe {
-  animation         : swipeAnim 3s infinite;
+  animation         : swipeAnim 2s infinite alternate;
   position: absolute;
 }
 
 @keyframes swipeAnim {
   from {
     transform : scale(0.3);
-    opacity   : 0.25;
+    opacity   : 0;
     left: 0;
   }
 
   50% {
-    transform : scale(0.5);
+    transform : scale(0.5) rotate(30deg);
     opacity   : 0.5;
     left: 20%;
   }
 
   to {
-    transform : scale(1);
+    transform : scale(1) rotate(45deg);
     opacity   : 1;
-    left: 40%;
+    left: 30%;
   }
 }
 
@@ -642,6 +653,10 @@ p {
 
 .sub-title > span {
   color: #FF2E5B;
+}
+
+.sub-title-inactive > span {
+  color: #717480;
 }
 
 .neumorphism {
@@ -664,7 +679,26 @@ p {
 }
 
 .mainCtas:hover {
-  background-image: linear-gradient(-45deg, #3a3a3e, #141517);
+  background-image: linear-gradient(-45deg, #3a3a3e, transparent, #141517);
+}
+
+/*TODO create loader css and js*/
+
+#preload {
+  transition: opacity 5s ease;
+  background-color: red;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.preload-finish {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .container {

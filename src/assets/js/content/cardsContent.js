@@ -13,7 +13,7 @@ export default [
             "tools/software needed to accomplish such project." +
             "\n\n" +
             "As a front-end developer my ultimate goal is to get a " +
-            "better understanding of best practices and best tools" +
+            "better understanding of best practices and best tools " +
             "to use in order to make those breath taking designs " +
             "a reality. You can check my projects on my GitHub." +
             "\n\n" +

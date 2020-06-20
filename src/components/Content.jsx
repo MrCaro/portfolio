@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Card from '../assets/js/cards';
+import SingleCard from './SingleCard';
 import Section from '../assets/js/useShowSection';
 import swipeIcon from '../assets/img/icon-swipe@2x.png';
 
@@ -17,16 +18,8 @@ const Content = () => {
             </div>
             <div id="scrollBar" className="flex flex-row md:flex-col w-full md:w-1/2 overflow-auto">
                 {cards.map((singleCard) => (
-                    /*<Carousel content={singleCard}/>*/
                     <div className="min-w-sm mx-16 my-10 py-4 px-8 sm:py-8 sm:px-16 neumorphism card">
-                        <div className="flex flex-row justify-between items-center">
-                            <h2 className="sub-title mb-4 text-lg md:text-2xl">
-                                <span>{singleCard.title}</span>
-                            </h2>
-                            <span className="mb-4">
-                                 <img src={singleCard.icon} alt=""/>
-                            </span>
-                        </div>
+                        <SingleCard singleCard={singleCard} active={active}/>
                         <p className="mb-10">{singleCard.description}</p>
                         <button className="text-white underline"
                                 onClick={() => setActive(singleCard.label)}
@@ -44,13 +37,3 @@ const Content = () => {
 };
 
 export default Content;
-
-// cards.map(card => (
-//     if (card.label === active) {
-//     //    p tag is pink
-//     } else {
-//     // p is gray
-//     }
-//
-// <p className="mb-10 {}">{singleCard.description}</p>
-// ))

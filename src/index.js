@@ -6,6 +6,8 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+      {/*TODO create preload component*/}
+      <div id="preload"><p>test</p></div>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,5 +1,6 @@
 import React from 'react';
 import Sections from './content/cardsContent';
+import Iphone from '../../assets/img/iPhoneX-mockup.png'
 
 
 const useShowSection = (props) => {
@@ -23,6 +24,14 @@ const useShowSection = (props) => {
                 </p>
                 <div className="absolute top-70 left-0 right-0 mx-auto">
                     <img className="m-auto" src={show.img} alt=""/>
+                </div>
+                <div className="absolute" style={{top: "100%"}}>
+                    <img src={Iphone} alt=""/>
+                    <iframe frameBorder="0"
+                            src="https://travel-app-carlos-caro.herokuapp.com/"
+                            id="iframe-desktop"
+                    >
+                    </iframe>
                 </div>
             </div>
         ))}
