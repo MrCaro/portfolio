@@ -4,7 +4,7 @@ import Content from "./components/Content";
 
 const App = () => {
     return (
-        <div className="container mx-auto max-w-full px-8">
+        <div id="content" className="container mx-auto max-w-full px-8" style={{display: "none"}}>
             <Header />
             <Content/>
         </div>
@@ -14,6 +14,11 @@ const App = () => {
 export default App;
 
 window.addEventListener('load', () => {
-    const preload = document.querySelector('#preload');
-    preload.classList.add('preload-finish');
+    setTimeout(function () {
+        const wrapperPreload = document.querySelector('#wrapper-preloader');
+        const content = document.querySelector('#content');
+
+        wrapperPreload.classList.add('preload-finish');
+        content.style.display = "block";
+    }, 4000)
 });

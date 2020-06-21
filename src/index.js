@@ -7,7 +7,15 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <React.StrictMode>
       {/*TODO create preload component*/}
-      <div id="preload"><p>test</p></div>
+      <div id="wrapper-preloader">
+          <div id="container-preloader">
+              <div id="preload">
+                  {/*<div>*/}
+                  {/*    <p className="">loading...</p>*/}
+                  {/*</div>*/}
+              </div>
+          </div>
+      </div>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
