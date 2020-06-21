@@ -19,17 +19,14 @@ const useShowSection = (props) => {
                 <p className="leading-loose whitespace-pre-wrap sm:text-lg">
                     {show.content}
                 </p>
-                <p>
-                    {show.extraContent}
-                </p>
                 <div className="absolute top-70 left-0 right-0 mx-auto">
                     <img className="m-auto" src={show.img} alt=""/>
                 </div>
-                <div id="iframe-mobile" className="absolute" style={{top: "100%", overflow: "hidden"}}>
+                <div className="absolute" style={{top: "100%"}}>
                     <img src={Iphone} alt=""/>
                     <iframe
                             src="https://travel-app-carlos-caro.herokuapp.com/"
-
+                            id="iframe-mobile"
                     >
                     </iframe>
                 </div>
