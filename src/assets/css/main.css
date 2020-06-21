@@ -742,6 +742,7 @@ p {
 .preload-finish {
   opacity: 0;
   pointer-events: none;
+  display: none !important;
 }
 
 .container {
