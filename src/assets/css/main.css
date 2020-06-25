@@ -613,10 +613,26 @@ p {
   top: 120%;
 }
 
-#iframe-mobile, iframe {
+.iframe-wrapper {
   position: absolute;
   top: 6%;
   left: 30px;
+  width: 256px;
+  height: 550px;
+  z-index: 10;
+  border: 1px solid #000;
+  border-radius: 25px!important;
+  -webkit-border-radius: 25px!important;
+  -moz-border-radius: 25px!important;
+  overflow: hidden;
+}
+
+#iframe-mobile, iframe {
+  position: absolute;
+  /*top: 6%;*/
+  top: 0;
+  /*left: 30px;*/
+  left: 0;
   width: 256px;
   height: 550px;
   z-index: 10;
