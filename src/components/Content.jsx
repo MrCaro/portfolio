@@ -29,7 +29,7 @@ const Content = () => {
                     </div>
                     ))}
             </div>
-            <div className="container w-full md:w-1/2 sm:px-8">
+            <div id="scrollBar" className="container w-full overflow-auto md:w-1/2 sm:px-8">
                 <Section content={active}/>
             </div>
         </div>

@@ -33,6 +33,7 @@ p {
     font-size: 57px;
     position: absolute;
     top: 120%;
+    text-transform: uppercase !important;
 }
 
 .iframe-wrapper {
@@ -217,4 +218,9 @@ p {
 #scrollBar::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-image: -webkit-linear-gradient(90deg, #ff3e6e, #ffa54b);
+}
+
+#footer {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
 }

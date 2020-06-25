@@ -1,10 +1,12 @@
 import React from 'react';
 import header from './headerIcons';
 import social from './socialIcons';
+import footer from './footerIcons';
 
 const useIcons = (props) => {
     const hIcon = header;
     const sIcon = social;
+    const fIcon = footer;
 
     const IconHeader = () => (
         <div className="flex justify-between md:content-between md:flex-wrap">
@@ -37,12 +39,28 @@ const useIcons = (props) => {
         </div>
     );
 
+    const IconFooter = () => (
+        <div id="footer" className="w-full h-auto card neumorphism">
+            <div className="flex justify-between my-24 md:justify-center">
+                {fIcon.map((icon) => (
+                    <div key={icon.label} className="w-auto md:mx-8">
+                        <div className="neumorphism card mainCtas">
+                            <a className="" href={icon.url} target="_blank">
+                                <img className="p-5" src={icon.img} alt=""/>
+                            </a>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
+
     const project = () => {
         switch(props.iconLocation) {
 
             case "header":   return IconHeader();
             case "social":   return IconSocial();
-            // case "footer": return IconFooter();
+            case "footer": return IconFooter();
 
             default:      return <h2>No icon match</h2>
         }
