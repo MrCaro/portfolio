@@ -17,7 +17,7 @@ export default [
             "to use in order to make those breath taking designs " +
             "a reality. You can check my projects on my GitHub." +
             "\n\n" +
-            "Check my Github Profile below (interact with iPhone)",
+            "Check one of my projects by interacting with the iPhone below",
         "img": frontEnd
     },
     {

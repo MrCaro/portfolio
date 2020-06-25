@@ -22,16 +22,19 @@ const useShowSection = (props) => {
                 <div className="absolute top-70 left-0 right-0 mx-auto">
                     <img className="m-auto" src={show.img} alt=""/>
                 </div>
+                {(show.label === "frontend")
+                    ?
                 <div className="absolute" style={{top: "100%"}}>
                     <img src={Iphone} alt=""/>
-                    <div class="iframe-wrapper">
-                        <iframe
-                            src="https://travel-app-carlos-caro.herokuapp.com/"
-                            id="iframe-mobile"
-                        >
-                        </iframe>
-                    </div>
+                    <iframe
+                        src="https://travel-app-carlos-caro.herokuapp.com/"
+                        id="iframe-mobile"
+                    >
+                    </iframe>
                 </div>
+                    :
+                    <p>nada</p>
+                    }
             </div>
         ))}
       </div>

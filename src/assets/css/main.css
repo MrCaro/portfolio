@@ -606,6 +606,13 @@ p {
   color: white;
 }
 
+.loading-text {
+  font-weight: 900;
+  font-size: 57px;
+  position: absolute;
+  top: 120%;
+}
+
 #iframe-mobile, iframe {
   position: absolute;
   top: 6%;
@@ -658,6 +665,14 @@ p {
   color: #FF2E5B;
 }
 
+#learnMore {
+  transition: padding-left 1s;
+}
+
+#learnMore:hover {
+  padding-left: 10px;
+}
+
 .sub-title-inactive > span {
   color: #717480;
 }
@@ -697,7 +712,6 @@ p {
   width: 100%;
   position: absolute;
   top: 0;
-  transition: opacity 1s;
 }
 
 #container-preloader {
@@ -706,6 +720,7 @@ p {
   border-radius: 100%;
   background: linear-gradient(165deg, #333b56 0%, #1A1E2C 40%, #0f1119 98%, rgb(0, 0, 0) 100%);
   position: relative;
+  transition: visibility 3s, opacity 2s linear;
 }
 
 #preload {

@@ -10,9 +10,9 @@ ReactDOM.render(
       <div id="wrapper-preloader">
           <div id="container-preloader">
               <div id="preload">
-                  {/*<div>*/}
-                  {/*    <p className="">loading...</p>*/}
-                  {/*</div>*/}
+                  <div>
+                      <p className="text-cc_gray-dark uppercase loading-text">loading...</p>
+                  </div>
               </div>
           </div>
       </div>

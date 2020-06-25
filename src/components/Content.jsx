@@ -21,7 +21,7 @@ const Content = () => {
                     <div className="min-w-sm mx-16 my-10 py-4 px-8 sm:py-8 sm:px-16 neumorphism card">
                         <SingleCard singleCard={singleCard} active={active}/>
                         <p className="mb-10">{singleCard.description}</p>
-                        <button className="text-white underline"
+                        <button id="learnMore" className="text-white underline"
                                 onClick={() => setActive(singleCard.label)}
                         >
                             learn more
