@@ -7,7 +7,7 @@ export default [
         "label": "frontend",
         "title": "Front-End",
         "subtitle": "Creating digital ideas by crushing the keyboard one key at a time",
-        "content": "When creating digital ideas either from designers or  myself I always try to understand all the components" +
+        "content": "When creating digital ideas either from designers or  myself I always try to understand all the components " +
             "needed before working on my code. Once I get a full " +
             "understanding of the requirements I can focus on the " +
             "tools/software needed to accomplish such project." +

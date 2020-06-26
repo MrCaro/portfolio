@@ -7,6 +7,7 @@ const useIcons = (props) => {
     const hIcon = header;
     const sIcon = social;
     const fIcon = footer;
+    const currentYear = new Date().getFullYear();
 
     const IconHeader = () => (
         <div className="flex justify-between md:content-between md:flex-wrap">
@@ -29,9 +30,9 @@ const useIcons = (props) => {
         <div className="flex justify-between my-24 md:justify-center">
         {sIcon.map((icon) => (
             <div key={icon.label} className="w-auto md:mx-8">
-                <div className="neumorphism card mainCtas">
+                <div className="neumorphism card smallCtas">
                     <a className="" href={icon.url} target="_blank">
-                        <img className="p-5" src={icon.img} alt=""/>
+                        <img className="p-3" src={icon.img} alt=""/>
                     </a>
                 </div>
             </div>
@@ -41,16 +42,21 @@ const useIcons = (props) => {
 
     const IconFooter = () => (
         <div id="footer" className="w-full h-auto card neumorphism">
-            <div className="flex justify-between my-24 md:justify-center">
+            <div className="flex justify-between my-16 md:justify-center">
                 {fIcon.map((icon) => (
                     <div key={icon.label} className="w-auto md:mx-8">
-                        <div className="neumorphism card mainCtas">
+                        <div className="neumorphism card smallCtas">
                             <a className="" href={icon.url} target="_blank">
-                                <img className="p-5" src={icon.img} alt=""/>
+                                <img className="p-3" src={icon.img} alt=""/>
                             </a>
                         </div>
                     </div>
                 ))}
+            </div>
+            <div className="text-center mb-10">
+                <p className="text-cc_gray-light">
+                    Carlos Caro | Front-End Developer | {currentYear}
+                </p>
             </div>
         </div>
     );

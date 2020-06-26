@@ -9,7 +9,7 @@ const Content = () => {
     const [active, setActive] = useState("frontend");
 
     return (
-        <div className="flex flex-col md:h-80 md:flex-row md:px-24">
+        <div className="flex flex-col md:h-auto md:flex-row md:px-24">
             <div className="flex flex-row inline-block md:hidden">
                 <p className="">
                     swipe

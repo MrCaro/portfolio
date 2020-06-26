@@ -3,8 +3,8 @@ import Icons from "../assets/js/useIcons";
 
 const Footer = () => {
     return (
-        <div>
-                <Icons iconLocation="footer"/>
+        <div className="mt-12">
+            <Icons iconLocation="footer"/>
         </div>
     )
 };
