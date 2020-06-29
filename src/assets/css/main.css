@@ -629,9 +629,7 @@ p {
 
 #iframe-mobile, iframe {
   position: absolute;
-  /*top: 6%;*/
   top: 0;
-  /*left: 30px;*/
   left: 0;
   width: 256px;
   height: 550px;
@@ -650,6 +648,12 @@ p {
   border-radius: 80px;
   -webkit-border-radius: 80px;
   -moz-border-radius: 80px;
+}
+
+@media screen and (max-width: 500px) {
+  #logo {
+    height: 150px !important;
+  }
 }
 
 #themeColorPickerWrapper {

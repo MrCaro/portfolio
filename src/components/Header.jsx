@@ -5,10 +5,10 @@ import Logo from '../assets/img/newIcon-CC.svg';
 import ThemeIcon from '../assets/img/icon-themeColors@2x.png';
 import carlos2 from '../assets/img/carlosBg3.png';
 
-
 const Header = () => {
     const themes = Themes;
     const [active, setActive] = useState(false);
+    const test = false;
 
     function changeBodyColor(color) {
         document.body.style.backgroundColor = color;
@@ -21,7 +21,7 @@ const Header = () => {
             {/* logo and title */}
             <div className="grid md:grid-cols-2 grid-cols-1 items-center my-24 xs:my-16">
                 <div className="col-span-1 mb-6 m-auto md:mb-auto md:mr-12">
-                    <img id="logo" className="neumorphism" src={Logo} alt=""/>
+                    <img id="logo" className="" src={Logo} alt="carlos caro web developer"/>
                 </div>
                 <div className="col-span-1 text-center md:text-left">
                     <h1 className="text-cc_gray-dark">carlos <br/> portfolio</h1>
