@@ -8,7 +8,6 @@ import carlos2 from '../assets/img/carlosBg3.png';
 const Header = () => {
     const themes = Themes;
     const [active, setActive] = useState(false);
-    const test = false;
 
     function changeBodyColor(color) {
         document.body.style.backgroundColor = color;
