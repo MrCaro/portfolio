@@ -1,7 +1,6 @@
 @import "tailwindcss/base";
 
-body {
-    /*background: #2D2E32;*/
+body, #themeColorPicker {
     background: #1A1E2C;
     font-family: 'Roboto', sans-serif;
 }
@@ -68,6 +67,32 @@ p {
 #logo {
     display: block;
     margin: auto 0 auto auto;
+    height: fit-content;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+}
+
+#themeColorPickerWrapper {
+    z-index: 100;
+}
+
+#themeColorPicker {
+    position: relative;
+    left: 118px;
+}
+
+.themeCard-show {
+    position: fixed;
+    left: 0;
+    transition: left 2s;
+     background: #1A1E2C;
+}
+
+.themeCard-hide {
+    position: fixed;
+    left: -7%;
+    transition: left 2s;
 }
 
 #swipe {

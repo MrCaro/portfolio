@@ -42,9 +42,9 @@ const useIcons = (props) => {
 
     const IconFooter = () => (
         <div id="footer" className="w-full h-auto card neumorphism">
-            <div className="flex justify-between my-16 md:justify-center">
+            <div className="flex justify-between my-16 md:justify-center flex-wrap">
                 {fIcon.map((icon) => (
-                    <div key={icon.label} className="w-auto md:mx-8">
+                    <div key={icon.label} className="w-auto md:mx-8 md:mb-0 mb-16 mx-6">
                         <div className="neumorphism card smallCtas">
                             <a className="" href={icon.url} target="_blank">
                                 <img className="p-3" src={icon.img} alt=""/>
