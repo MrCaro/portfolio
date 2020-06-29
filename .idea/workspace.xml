@@ -177,8 +177,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assets/css/tailwind.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+            <state relative-caret-position="442">
+              <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -363,12 +363,12 @@
       <workItem from="1591919408521" duration="956000" />
       <workItem from="1592329386157" duration="31608000" />
       <workItem from="1593209531604" duration="7999000" />
-      <workItem from="1593447380541" duration="3892000" />
+      <workItem from="1593447380541" duration="4151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141542000" />
+    <option name="totallyTimeSpent" value="141801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -710,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/css/tailwind.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+        <state relative-caret-position="442">
+          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
         </state>
       </provider>
     </entry>
