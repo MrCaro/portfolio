@@ -67,7 +67,7 @@ p {
 #logo {
     display: block;
     margin: auto 0 auto auto;
-    height: fit-content;
+    height: fit-content !important;
     border-radius: 80px;
     -webkit-border-radius: 80px;
     -moz-border-radius: 80px;
