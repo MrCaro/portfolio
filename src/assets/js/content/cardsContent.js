@@ -6,6 +6,7 @@ import modeling3d from '../../img/iconBig-3d.png';
 export default [
     {
         "label": "aboutme",
+        "title": "About Me",
         "subtitle": "Hello there and welcome, just a little introduction",
         "content":
             "Hi 👋" +
