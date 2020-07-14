@@ -6,7 +6,7 @@ import swipeIcon from '../assets/img/icon-swipe@2x.png';
 
 const Content = () => {
     const cards = Card;
-    const [active, setActive] = useState("frontend");
+    const [active, setActive] = useState("aboutme");
 
     return (
         <div className="flex flex-col md:h-auto md:flex-row md:px-24">

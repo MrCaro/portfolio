@@ -675,7 +675,7 @@ p {
 
 .themeCard-hide {
   position: fixed;
-  left: -7%;
+  left: -8.5rem;
   transition: left 2s;
 }
 
