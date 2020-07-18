@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f372071ed6ae8bccb02c5939c124ecf3",
+    "revision": "fc537d771092633c75a27214c187d47b",
     "url": "/carloscaro.com/index.html"
   },
   {
-    "revision": "571f902862beb3b66cfc",
+    "revision": "7cb3c018d2889d858fda",
     "url": "/carloscaro.com/static/css/main.e8c65c8c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/carloscaro.com/static/js/2.c1484c66.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "571f902862beb3b66cfc",
-    "url": "/carloscaro.com/static/js/main.acd8f329.chunk.js"
+    "revision": "7cb3c018d2889d858fda",
+    "url": "/carloscaro.com/static/js/main.2b4713a6.chunk.js"
   },
   {
     "revision": "63714772d68d1ebf3686",
