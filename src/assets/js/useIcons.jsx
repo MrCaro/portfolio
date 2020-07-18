@@ -14,7 +14,7 @@ const useIcons = (props) => {
             {hIcon.map((icon) => (
                 <div key={icon.label} className="flex flex-row w-auto md:w-full">
                     <div className="neumorphism card mainCtas">
-                        <a className="sm:flex sm:flex-row" href={icon.href} target="_blank" rel="noopener noreferrer">
+                        <a className="sm:flex sm:flex-row" href={icon.href} target="_blank" rel="noopener">
                             <img className="p-5" src={icon.img} alt={icon.label}/>
                         </a>
                     </div>
@@ -31,7 +31,7 @@ const useIcons = (props) => {
         {sIcon.map((icon) => (
             <div key={icon.label} className="w-auto md:mx-8">
                 <div className="neumorphism card smallCtas">
-                    <a className="" href={icon.url} target="_blank">
+                    <a className="" href={icon.url} target="_blank" rel="noopener">
                         <img className="p-3" src={icon.img} alt=""/>
                     </a>
                 </div>
@@ -46,7 +46,7 @@ const useIcons = (props) => {
                 {fIcon.map((icon) => (
                     <div key={icon.label} className="w-auto md:mx-8 md:mb-0 mb-16 mx-6">
                         <div className="neumorphism card smallCtas">
-                            <a className="" href={icon.url} target="_blank">
+                            <a className="" href={icon.url} target="_blank" rel="noopener">
                                 <img className="p-3" src={icon.img} alt=""/>
                             </a>
                         </div>

@@ -24,3 +24,11 @@ window.addEventListener('load', () => {
         content.style.display = "block";
     }, 4000)
 });
+
+window.addEventListener('scroll', () => {
+    let offset = window.scrollY;
+    offset *= 1;
+
+    const logoCC = document.getElementById('logo');
+    logoCC.style.transform = "rotate(" + offset + "deg)";
+});
