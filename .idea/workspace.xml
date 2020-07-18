@@ -156,7 +156,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" column="56" lean-forward="true" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -420,12 +420,12 @@
       <workItem from="1593447380541" duration="6113000" />
       <workItem from="1593732104755" duration="10450000" />
       <workItem from="1594681110257" duration="6357000" />
-      <workItem from="1595032443019" duration="4004000" />
+      <workItem from="1595032443019" duration="4078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164574000" />
+    <option name="totallyTimeSpent" value="164648000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,7 +764,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" column="56" lean-forward="true" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
         </state>
       </provider>
     </entry>
