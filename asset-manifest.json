@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/carloscaro.com/static/css/main.e8c65c8c.chunk.css",
-    "main.js": "/carloscaro.com/static/js/main.2b4713a6.chunk.js",
-    "main.js.map": "/carloscaro.com/static/js/main.2b4713a6.chunk.js.map",
+    "main.css": "/carloscaro.com/static/css/main.8904435c.chunk.css",
+    "main.js": "/carloscaro.com/static/js/main.11d953ef.chunk.js",
+    "main.js.map": "/carloscaro.com/static/js/main.11d953ef.chunk.js.map",
     "runtime-main.js": "/carloscaro.com/static/js/runtime-main.e1c7b954.js",
     "runtime-main.js.map": "/carloscaro.com/static/js/runtime-main.e1c7b954.js.map",
-    "static/js/2.c1484c66.chunk.js": "/carloscaro.com/static/js/2.c1484c66.chunk.js",
-    "static/js/2.c1484c66.chunk.js.map": "/carloscaro.com/static/js/2.c1484c66.chunk.js.map",
+    "static/js/2.3a74be11.chunk.js": "/carloscaro.com/static/js/2.3a74be11.chunk.js",
+    "static/js/2.3a74be11.chunk.js.map": "/carloscaro.com/static/js/2.3a74be11.chunk.js.map",
     "index.html": "/carloscaro.com/index.html",
-    "precache-manifest.61e03112e4e19a41585b2db475d9d123.js": "/carloscaro.com/precache-manifest.61e03112e4e19a41585b2db475d9d123.js",
+    "precache-manifest.8866c34b790df21a99b935468455d336.js": "/carloscaro.com/precache-manifest.8866c34b790df21a99b935468455d336.js",
     "service-worker.js": "/carloscaro.com/service-worker.js",
-    "static/css/main.e8c65c8c.chunk.css.map": "/carloscaro.com/static/css/main.e8c65c8c.chunk.css.map",
-    "static/js/2.c1484c66.chunk.js.LICENSE.txt": "/carloscaro.com/static/js/2.c1484c66.chunk.js.LICENSE.txt",
+    "static/css/main.8904435c.chunk.css.map": "/carloscaro.com/static/css/main.8904435c.chunk.css.map",
+    "static/js/2.3a74be11.chunk.js.LICENSE.txt": "/carloscaro.com/static/js/2.3a74be11.chunk.js.LICENSE.txt",
     "static/media/Resume-CarlosCaro-2020.pdf": "/carloscaro.com/static/media/Resume-CarlosCaro-2020.45550585.pdf",
     "static/media/carlosBg3.png": "/carloscaro.com/static/media/carlosBg3.14b67141.png",
     "static/media/iPhoneX-mockup.png": "/carloscaro.com/static/media/iPhoneX-mockup.a4b8d480.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e1c7b954.js",
-    "static/js/2.c1484c66.chunk.js",
-    "static/css/main.e8c65c8c.chunk.css",
-    "static/js/main.2b4713a6.chunk.js"
+    "static/js/2.3a74be11.chunk.js",
+    "static/css/main.8904435c.chunk.css",
+    "static/js/main.11d953ef.chunk.js"
   ]
 }
