@@ -34,7 +34,7 @@ const Header = () => {
                     <em>enable light mode!</em>
                 </div>
             </div>
-         
+
             <div className="absolute -z-1 right-0 top-0 hidden md:block">
                 {/*<img src={carlos2} alt=""/>*/}
             </div>

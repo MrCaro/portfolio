@@ -4,12 +4,6 @@
     <list default="true" id="780f89a5-0185-416e-a864-d7bd25ba0b74" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../pokedex/resources/json/pokemons-list.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../pokedex/resources/sass/_pokedex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/icon-dribbble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/icon-github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/icon-linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/icon-mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/icon-resume.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/test-logo-anim-5.gif" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../shoesEcommerce/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../shoesEcommerce/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../shoesEcommerce/.idea/php.xml" afterDir="false" />
@@ -66,13 +60,7 @@
       <change beforePath="$PROJECT_DIR$/../../package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../public/.htaccess" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../public/css/app.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../public/css/glider.min.css" beforeDir="false" />
@@ -173,14 +161,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Header.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-241">
+              <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -422,12 +419,12 @@
       <workItem from="1593732104755" duration="10450000" />
       <workItem from="1594681110257" duration="6357000" />
       <workItem from="1595032443019" duration="4779000" />
-      <workItem from="1595690983866" duration="5367000" />
+      <workItem from="1595690983866" duration="5595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170716000" />
+    <option name="totallyTimeSpent" value="170944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,7 +437,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1680" height="956" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18803419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -514,13 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="580" column="6" selection-start-line="580" selection-start-column="6" selection-end-line="580" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postcss.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -650,9 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/js/useIcons.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -682,13 +668,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -753,13 +732,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postcss.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-241">
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
         </state>
       </provider>
     </entry>
