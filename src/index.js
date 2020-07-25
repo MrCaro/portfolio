@@ -21,6 +21,20 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+//change theme dark or light mode toggle setup
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA

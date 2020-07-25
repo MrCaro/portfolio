@@ -1,7 +1,98 @@
 @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/*light mode vars*/
+:root {
+    --bg-color: #1A1E2C;
+    --h1-color: #ffffff0d;
+    --font-primary-color: #ffff;
+    --neumorphism-shadow: -5px -5px 15px 0 #7070705c, 5px 5px 15px 0 #0000008c;
+    --card-gradient-hover: linear-gradient(-45deg, #7070705c, transparent, #0000008c);
+}
+
+/*dark mode vars*/
+[data-theme="light"] {
+    --bg-color: #F3F5F8;
+    --h1-color: #0000000d;
+    --font-primary-color: gray;
+    --neumorphism-shadow: -5px -5px 15px 0 #ffff, 5px 5px 15px 0 #4252801a;
+    --card-gradient-hover: linear-gradient(-45deg, #ffff, transparent, #4252801a);
+}
+
+/*change theme toggle switch*/
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.theme-switch-wrapper em {
+    margin-left: 10px;
+    font-size: 1rem;
+    color: var(--font-primary-color);
+}
+
+.theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+}
+
+.theme-switch input {
+    display:none;
+}
+
+.slider {
+    background-color: var(--bg-color);
+    border: solid 1px #70707012;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+}
+
+.slider:before {
+    background-color: #1a1e2c;
+    -webkit-box-shadow: var(--neumorphism-shadow);
+    -moz-box-shadow: var(--neumorphism-shadow);
+    box-shadow: var(--neumorphism-shadow);
+    border: solid 1px #70707012;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+}
+
+input:checked + .slider {
+    background-color: #F3F5F8;
+}
+
+input:checked + .slider:before {
+    background-color: #f3f5f8;
+    -webkit-box-shadow: var(--neumorphism-shadow);
+    -moz-box-shadow: var(--neumorphism-shadow);
+    box-shadow: var(--neumorphism-shadow);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
 
 body, #themeColorPicker {
-    background: #1A1E2C;
+    background: var(--bg-color);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -10,7 +101,7 @@ h1 {
     text-transform: uppercase;
     font-size: 57px;
     line-height: 67px;
-    color: rgba(255, 255, 255, 0.05);
+    color: var(--h1-color);
 }
 
 h2 {
@@ -23,8 +114,7 @@ h3 {
 
 p {
     font-weight: 100;
-    /*color: #828282;*/
-    color: white;
+    color:  var(--font-primary-color);
 }
 
 .loading-text {
@@ -69,7 +159,9 @@ p {
     border-radius: 80px;
     -webkit-border-radius: 80px;
     -moz-border-radius: 80px;
-    box-shadow: -5px -5px 15px 0 #7070705c, 5px 5px 15px 0 #0000008c;
+    -webkit-box-shadow: var(--neumorphism-shadow);
+    -moz-box-shadow: var(--neumorphism-shadow);
+    box-shadow: var(--neumorphism-shadow);
 }
 
 @media screen and (max-width: 500px) {
@@ -128,7 +220,7 @@ p {
 
 .sub-title {
     text-transform: capitalize;
-    color: white;
+    color: var(--font-primary-color);
 }
 
 .sub-title > span {
@@ -137,6 +229,7 @@ p {
 
 #learnMore {
     transition: padding-left 1s;
+    color: var(--font-primary-color)
 }
 
 #learnMore:hover {
@@ -149,12 +242,14 @@ p {
 
 .neumorphism {
     height: auto;
-    box-shadow: -5px -5px 15px 0 #7070705c, 5px 5px 15px 0 #0000008c;
+    -webkit-box-shadow: var(--neumorphism-shadow);
+    -moz-box-shadow: var(--neumorphism-shadow);
+    box-shadow: var(--neumorphism-shadow);
 }
 
 .card {
     border-radius: 10px;
-    border: solid 1px #70707012;
+    /*border: solid 1px #70707012;*/
 }
 
 .mainCtas {
@@ -172,11 +267,9 @@ p {
 }
 
 .mainCtas:hover, .smallCtas:hover {
-    background-image: linear-gradient(-45deg, #3a3a3e, transparent, #141517);
+    background-image: var(--card-gradient-hover);
 }
 
-
-/*TODO create loader css and js*/
 #wrapper-preloader {
     margin: 0;
     background: radial-gradient(#1a1e2c, #11141d);
@@ -196,10 +289,6 @@ p {
     background: linear-gradient(165deg, #333b56 0%, #1A1E2C 40%, #0f1119 98%, rgb(0, 0, 0) 100%);
     position: relative;
     transition: visibility 3s, opacity 2s linear;
-}
-
-#preload {
-
 }
 
 #preload:before {
@@ -237,9 +326,6 @@ p {
     display: none !important;
 }
 
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
 #scrollBar::-webkit-scrollbar-track {
     border-radius: 10px;
     background-color: transparent;
@@ -257,6 +343,7 @@ p {
 }
 
 #footer {
+    border: solid 1px #70707012;
     border-bottom-right-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
 }

@@ -25,6 +25,7 @@ window.addEventListener('load', () => {
     }, 4000)
 });
 
+//rotates main logo on portfolio
 window.addEventListener('scroll', () => {
     let offset = window.scrollY;
     offset *= 1;
