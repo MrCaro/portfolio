@@ -1,19 +1,9 @@
 import React, {useState} from 'react';
 import Icons from '../assets/js/useIcons';
-import Themes from '../assets/js/themeColors';
 import Logo from '../assets/img/newIcon-CC.svg';
-import ThemeIcon from '../assets/img/icon-themeColors@2x.png';
 import carlos2 from '../assets/img/carlosBg3.png';
 
 const Header = () => {
-    const themes = Themes;
-    const [active, setActive] = useState(false);
-
-    function changeBodyColor(color) {
-        document.body.style.backgroundColor = color;
-        document.getElementById('themeColorPicker').style.backgroundColor = color;
-        document.getElementById('themeColorPickerWrapper').style.backgroundColor = color;
-    }
 
     return (
         <div>

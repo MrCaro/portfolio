@@ -23,13 +23,16 @@ ReactDOM.render(
 
 //change theme dark or light mode toggle setup
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+const themeText = document.querySelector('.theme-switch-wrapper em');
 
 function switchTheme(e) {
     if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'light');
+        themeText.innerHTML = 'enable dark mode';
     }
     else {
         document.documentElement.setAttribute('data-theme', 'dark');
+        themeText.innerHTML = 'enable light mode';
     }
 }
 

@@ -11,16 +11,12 @@ export default [
         "content":
             "Hi 👋" +
             "\n" +
-            "My name is Carlos and I am a Front End Coder that needs a frozen Rainbow Unicorn - Bang Energy Drink to keep the engine going. " +
-            "Born and raised in Caracas, Venezuela; I came to the States on Fall of 2012, where I got my B.S in Computer Science and B.A in Management from St. Thomas University (MIA, FL - Class 2018). " +
-            "So when it comes to personality I would describe myself as an energetic/enthusiast/passionate/curious geek who spends way too much time on the computer, not a big surprise, right? " +
-            "A 'fun' fact about me, I tend to joke whenever I am nervous, think it as off Chandler from friends." +
+            "My name is Carlos and I am a Front End Developer located in Orlando, FL. I have been working as a developer for the past 2 years. I would describe myself as a dev always willing to step " +
+            "out of its comfort zone to tackle new projects. My goal is to keep on learning and work on challenging yet fun projects where I can bring digital experiences alive. I am currently learning react " +
+            "since I did find fascinating the principles of component-based and states in order to make UI while having reusable and easily scalable code." +
             "\n\n" +
-            "While not on my computer taking online courses or working on digital " +
-            "projects you can find myself playing/watching soccer, I am a big fan. Also, you can find me playing video games or having coffee at Barnes and Noble. If not you can " +
-            "find me playing board games with my friends or family, I am a 'little' bit competitive... but no flipping the table kind off" +
-            "\n\n" +
-            "I love learning new skills and get into challenging yet fun projects, I love my career since I get to challenge myself pretty much on daily basis. ",
+            "Apart from coding I have a passion for UI design and 3D modeling which you can find on the other sections of my portfolio. While not geeking about coding, UI, or 3D you can find " +
+            "me playing videos games or soccer.",
         "img": person
     },
     {
@@ -29,13 +25,12 @@ export default [
         "subtitle": "Creating digital ideas by crushing the keyboard one key at a time",
         "content":
             "I have been in the web dev industry for the past 2 years, where I had the opportunity to grow as a developer and meeting great professionals " +
-            "along the way. I have been involved in different web projects in these past couple of years, I had the opportunity to update as client requested a, " +
-            "custom wp plug in, also developing custom responsive emails for marketing campaigns, creating landing pages, custom hooks on Zapier, and more. " +
+            "along the way. I have been involved in different web projects in these past couple of years, I had the opportunity to update as client requested in their " +
+            "custom wp plug in, also developing custom responsive emails for marketing campaigns using MJML, creating landing pages, custom hooks on Zapier, and more. " +
             "\n\n " +
-            "As a Front-End developer my ultimate goal is to get to a point where I can combine 3D/AR/VR with web development for 'future' UI/UX site demands as the field grows " +
-            "towards that direction." +
+            "As a Front-End developer my ultimate goal is to bring unforgettable digital experiences alive." +
             "\n\n" +
-            "Check one of my personal projects by interacting with the iPhone below 👇",
+            "Check one of my personal projects by interacting with the iPhone below (created with laravel + vue) 👇",
         "img": frontEnd
     },
     {
@@ -43,13 +38,13 @@ export default [
         "title": "UI Design",
         "subtitle": "Minimalistic and ‘less is more’ is my rule for creating UI design",
         "content":
-            "As a Front-End developer with a passion for design I love making and interact with appealing software. That is why I decided " +
+            "As a Front-End developer with a passion for design I love making and interact with appealing UI. That is why I decided " +
             "to educate myself with overall digital design instead on only focusing on the coding. This is something that I do for mere fun, " +
-            "I am not a professional UI designer but I would definitely love to learn more and have a combination of design/coding." +
+            "I am not a professional UI designer but I would definitely love to learn more and have a combination of design/coding in my career." +
             "\n\n" +
             "I can work with tools such as Photoshop, Illustrator, and Adobe XD. I have find it extremely helpful on my daily basis as a " +
             "professional Front-End developer so I can create UI assets for personal or even contribute to professional " +
-            "projects with designers. ",
+            "projects with designers.",
         "img": ui
     },
     {

@@ -91,7 +91,7 @@ input:checked + .slider:before {
 }
 
 
-body, #themeColorPicker {
+body {
     background: var(--bg-color);
     font-family: 'Roboto', sans-serif;
 }
@@ -168,28 +168,6 @@ p {
     #logo {
         height: 150px !important;
     }
-}
-
-#themeColorPickerWrapper {
-    z-index: 100;
-}
-
-#themeColorPicker {
-    position: relative;
-    left: 118px;
-}
-
-.themeCard-show {
-    position: fixed;
-    left: 0;
-    transition: left 2s;
-     background: #1A1E2C;
-}
-
-.themeCard-hide {
-    position: fixed;
-    left: -8.5rem;
-    transition: left 2s;
 }
 
 #swipe {
