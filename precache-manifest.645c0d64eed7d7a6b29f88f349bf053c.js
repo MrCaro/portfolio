@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "626d8a38a0b41fdcf44250b1d3b2d0bc",
+    "revision": "0240ce013bfb513feb1d5f05cb0c9c63",
     "url": "/carloscaro.com/index.html"
   },
   {
-    "revision": "5d5c8676f55a5d8857cf",
-    "url": "/carloscaro.com/static/css/main.8904435c.chunk.css"
+    "revision": "2adbc8c392c42ca6f687",
+    "url": "/carloscaro.com/static/css/main.ed0926ff.chunk.css"
   },
   {
-    "revision": "e43bcfe13ff311e1f9a5",
-    "url": "/carloscaro.com/static/js/2.3a74be11.chunk.js"
+    "revision": "559af314196e70561333",
+    "url": "/carloscaro.com/static/js/2.5d5c93e0.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/carloscaro.com/static/js/2.3a74be11.chunk.js.LICENSE.txt"
+    "url": "/carloscaro.com/static/js/2.5d5c93e0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d5c8676f55a5d8857cf",
-    "url": "/carloscaro.com/static/js/main.11d953ef.chunk.js"
+    "revision": "2adbc8c392c42ca6f687",
+    "url": "/carloscaro.com/static/js/main.5947e3d0.chunk.js"
   },
   {
     "revision": "63714772d68d1ebf3686",
