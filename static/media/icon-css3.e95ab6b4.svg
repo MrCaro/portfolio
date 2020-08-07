@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="56" viewBox="0 0 60 56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #717480;
+        opacity: 0.15;
+      }
+    </style>
+  </defs>
+  <path id="Icon_awesome-css3" data-name="Icon awesome-css3" class="cls-1" d="M60,2.25l-8,46-27.913,10L0,48.25,2.45,36.4H12.7l-1,5.075,14.55,5.55,16.763-5.55,2.35-12.137H3.688l2-10.25H47.4L48.713,12.5H7.038L9.075,2.25H60Z" transform="translate(0 -2.25)"/>
+</svg>

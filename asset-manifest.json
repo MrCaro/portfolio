@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/carloscaro.com/static/css/main.ed0926ff.chunk.css",
-    "main.js": "/carloscaro.com/static/js/main.5947e3d0.chunk.js",
-    "main.js.map": "/carloscaro.com/static/js/main.5947e3d0.chunk.js.map",
+    "main.css": "/carloscaro.com/static/css/main.b7bf6b45.chunk.css",
+    "main.js": "/carloscaro.com/static/js/main.541cddab.chunk.js",
+    "main.js.map": "/carloscaro.com/static/js/main.541cddab.chunk.js.map",
     "runtime-main.js": "/carloscaro.com/static/js/runtime-main.e1c7b954.js",
     "runtime-main.js.map": "/carloscaro.com/static/js/runtime-main.e1c7b954.js.map",
-    "static/js/2.5d5c93e0.chunk.js": "/carloscaro.com/static/js/2.5d5c93e0.chunk.js",
-    "static/js/2.5d5c93e0.chunk.js.map": "/carloscaro.com/static/js/2.5d5c93e0.chunk.js.map",
+    "static/js/2.91d1ac4b.chunk.js": "/carloscaro.com/static/js/2.91d1ac4b.chunk.js",
+    "static/js/2.91d1ac4b.chunk.js.map": "/carloscaro.com/static/js/2.91d1ac4b.chunk.js.map",
     "index.html": "/carloscaro.com/index.html",
-    "precache-manifest.645c0d64eed7d7a6b29f88f349bf053c.js": "/carloscaro.com/precache-manifest.645c0d64eed7d7a6b29f88f349bf053c.js",
+    "precache-manifest.b442e4f51357f1767971b8299262a59c.js": "/carloscaro.com/precache-manifest.b442e4f51357f1767971b8299262a59c.js",
     "service-worker.js": "/carloscaro.com/service-worker.js",
-    "static/css/main.ed0926ff.chunk.css.map": "/carloscaro.com/static/css/main.ed0926ff.chunk.css.map",
-    "static/js/2.5d5c93e0.chunk.js.LICENSE.txt": "/carloscaro.com/static/js/2.5d5c93e0.chunk.js.LICENSE.txt",
+    "static/css/main.b7bf6b45.chunk.css.map": "/carloscaro.com/static/css/main.b7bf6b45.chunk.css.map",
+    "static/js/2.91d1ac4b.chunk.js.LICENSE.txt": "/carloscaro.com/static/js/2.91d1ac4b.chunk.js.LICENSE.txt",
     "static/media/Resume-CarlosCaro-2020.pdf": "/carloscaro.com/static/media/Resume-CarlosCaro-2020.45550585.pdf",
-    "static/media/carlosBg3.png": "/carloscaro.com/static/media/carlosBg3.14b67141.png",
     "static/media/iPhoneX-mockup.png": "/carloscaro.com/static/media/iPhoneX-mockup.a4b8d480.png",
+    "static/media/icon-css3.svg": "/carloscaro.com/static/media/icon-css3.e95ab6b4.svg",
+    "static/media/icon-git.svg": "/carloscaro.com/static/media/icon-git.af1350fc.svg",
+    "static/media/icon-html5.svg": "/carloscaro.com/static/media/icon-html5.7033182b.svg",
+    "static/media/icon-js.svg": "/carloscaro.com/static/media/icon-js.fa6bb747.svg",
+    "static/media/icon-react.svg": "/carloscaro.com/static/media/icon-react.40209c39.svg",
     "static/media/iconBig-3d.png": "/carloscaro.com/static/media/iconBig-3d.3de8c0d2.png",
     "static/media/iconBig-code.png": "/carloscaro.com/static/media/iconBig-code.09c50007.png",
     "static/media/iconBig-person.png": "/carloscaro.com/static/media/iconBig-person.3e8e3af8.png",
@@ -23,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e1c7b954.js",
-    "static/js/2.5d5c93e0.chunk.js",
-    "static/css/main.ed0926ff.chunk.css",
-    "static/js/main.5947e3d0.chunk.js"
+    "static/js/2.91d1ac4b.chunk.js",
+    "static/css/main.b7bf6b45.chunk.css",
+    "static/js/main.541cddab.chunk.js"
   ]
 }
