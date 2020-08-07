@@ -14663,7 +14663,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-body, #themeColorPicker {
+body {
   background: var(--bg-color);
   font-family: 'Roboto', sans-serif;
 }
@@ -14687,6 +14687,10 @@ h3 {
 p {
   font-weight: 100;
   color:  var(--font-primary-color);
+}
+
+.programming-icons:hover {
+  fill: red !important;
 }
 
 .loading-text {
@@ -14739,28 +14743,6 @@ p {
   #logo {
     height: 150px !important;
   }
-}
-
-#themeColorPickerWrapper {
-  z-index: 100;
-}
-
-#themeColorPicker {
-  position: relative;
-  left: 118px;
-}
-
-.themeCard-show {
-  position: fixed;
-  left: 0;
-  transition: left 2s;
-  background: #1A1E2C;
-}
-
-.themeCard-hide {
-  position: fixed;
-  left: -8.5rem;
-  transition: left 2s;
 }
 
 #swipe {
