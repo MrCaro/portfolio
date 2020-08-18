@@ -14689,8 +14689,12 @@ p {
   color:  var(--font-primary-color);
 }
 
+.programming-icons {
+  filter: grayscale(100%) brightness(1);
+}
+
 .programming-icons:hover {
-  fill: red !important;
+  filter: grayscale(0) brightness(1);
 }
 
 .loading-text {
