@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/carloscaro.com/static/css/main.b7bf6b45.chunk.css",
-    "main.js": "/carloscaro.com/static/js/main.541cddab.chunk.js",
-    "main.js.map": "/carloscaro.com/static/js/main.541cddab.chunk.js.map",
+    "main.css": "/carloscaro.com/static/css/main.4af4b905.chunk.css",
+    "main.js": "/carloscaro.com/static/js/main.d58ffe4f.chunk.js",
+    "main.js.map": "/carloscaro.com/static/js/main.d58ffe4f.chunk.js.map",
     "runtime-main.js": "/carloscaro.com/static/js/runtime-main.e1c7b954.js",
     "runtime-main.js.map": "/carloscaro.com/static/js/runtime-main.e1c7b954.js.map",
     "static/js/2.91d1ac4b.chunk.js": "/carloscaro.com/static/js/2.91d1ac4b.chunk.js",
     "static/js/2.91d1ac4b.chunk.js.map": "/carloscaro.com/static/js/2.91d1ac4b.chunk.js.map",
     "index.html": "/carloscaro.com/index.html",
-    "precache-manifest.b442e4f51357f1767971b8299262a59c.js": "/carloscaro.com/precache-manifest.b442e4f51357f1767971b8299262a59c.js",
+    "precache-manifest.d57b270224901464c12eca884402c98b.js": "/carloscaro.com/precache-manifest.d57b270224901464c12eca884402c98b.js",
     "service-worker.js": "/carloscaro.com/service-worker.js",
-    "static/css/main.b7bf6b45.chunk.css.map": "/carloscaro.com/static/css/main.b7bf6b45.chunk.css.map",
+    "static/css/main.4af4b905.chunk.css.map": "/carloscaro.com/static/css/main.4af4b905.chunk.css.map",
     "static/js/2.91d1ac4b.chunk.js.LICENSE.txt": "/carloscaro.com/static/js/2.91d1ac4b.chunk.js.LICENSE.txt",
     "static/media/Resume-CarlosCaro-2020.pdf": "/carloscaro.com/static/media/Resume-CarlosCaro-2020.45550585.pdf",
     "static/media/iPhoneX-mockup.png": "/carloscaro.com/static/media/iPhoneX-mockup.a4b8d480.png",
-    "static/media/icon-css3.svg": "/carloscaro.com/static/media/icon-css3.e95ab6b4.svg",
-    "static/media/icon-git.svg": "/carloscaro.com/static/media/icon-git.af1350fc.svg",
-    "static/media/icon-html5.svg": "/carloscaro.com/static/media/icon-html5.7033182b.svg",
-    "static/media/icon-js.svg": "/carloscaro.com/static/media/icon-js.fa6bb747.svg",
-    "static/media/icon-react.svg": "/carloscaro.com/static/media/icon-react.40209c39.svg",
+    "static/media/icon-css-color.svg": "/carloscaro.com/static/media/icon-css-color.532cf96a.svg",
+    "static/media/icon-git-color.svg": "/carloscaro.com/static/media/icon-git-color.387abe2c.svg",
+    "static/media/icon-html5-color.svg": "/carloscaro.com/static/media/icon-html5-color.fd4af9f4.svg",
+    "static/media/icon-js-color.svg": "/carloscaro.com/static/media/icon-js-color.388e6b0a.svg",
+    "static/media/icon-react-color.svg": "/carloscaro.com/static/media/icon-react-color.3d755c00.svg",
     "static/media/iconBig-3d.png": "/carloscaro.com/static/media/iconBig-3d.3de8c0d2.png",
     "static/media/iconBig-code.png": "/carloscaro.com/static/media/iconBig-code.09c50007.png",
     "static/media/iconBig-person.png": "/carloscaro.com/static/media/iconBig-person.3e8e3af8.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.e1c7b954.js",
     "static/js/2.91d1ac4b.chunk.js",
-    "static/css/main.b7bf6b45.chunk.css",
-    "static/js/main.541cddab.chunk.js"
+    "static/css/main.4af4b905.chunk.css",
+    "static/js/main.d58ffe4f.chunk.js"
   ]
 }
