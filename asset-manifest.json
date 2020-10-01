@@ -1,18 +1,21 @@
 {
   "files": {
     "main.css": "/carloscaro.com/static/css/main.4af4b905.chunk.css",
-    "main.js": "/carloscaro.com/static/js/main.d58ffe4f.chunk.js",
-    "main.js.map": "/carloscaro.com/static/js/main.d58ffe4f.chunk.js.map",
+    "main.js": "/carloscaro.com/static/js/main.f6e23953.chunk.js",
+    "main.js.map": "/carloscaro.com/static/js/main.f6e23953.chunk.js.map",
     "runtime-main.js": "/carloscaro.com/static/js/runtime-main.e1c7b954.js",
     "runtime-main.js.map": "/carloscaro.com/static/js/runtime-main.e1c7b954.js.map",
-    "static/js/2.91d1ac4b.chunk.js": "/carloscaro.com/static/js/2.91d1ac4b.chunk.js",
-    "static/js/2.91d1ac4b.chunk.js.map": "/carloscaro.com/static/js/2.91d1ac4b.chunk.js.map",
+    "static/js/2.a7386d6a.chunk.js": "/carloscaro.com/static/js/2.a7386d6a.chunk.js",
+    "static/js/2.a7386d6a.chunk.js.map": "/carloscaro.com/static/js/2.a7386d6a.chunk.js.map",
     "index.html": "/carloscaro.com/index.html",
-    "precache-manifest.d57b270224901464c12eca884402c98b.js": "/carloscaro.com/precache-manifest.d57b270224901464c12eca884402c98b.js",
+    "precache-manifest.115e52bab7e3ea25292ad82b510fbf93.js": "/carloscaro.com/precache-manifest.115e52bab7e3ea25292ad82b510fbf93.js",
     "service-worker.js": "/carloscaro.com/service-worker.js",
     "static/css/main.4af4b905.chunk.css.map": "/carloscaro.com/static/css/main.4af4b905.chunk.css.map",
-    "static/js/2.91d1ac4b.chunk.js.LICENSE.txt": "/carloscaro.com/static/js/2.91d1ac4b.chunk.js.LICENSE.txt",
+    "static/js/2.a7386d6a.chunk.js.LICENSE.txt": "/carloscaro.com/static/js/2.a7386d6a.chunk.js.LICENSE.txt",
     "static/media/Resume-CarlosCaro-2020.pdf": "/carloscaro.com/static/media/Resume-CarlosCaro-2020.45550585.pdf",
+    "static/media/dribble-travel-app.png": "/carloscaro.com/static/media/dribble-travel-app.36a9812d.png",
+    "static/media/face_model_3.glb": "/carloscaro.com/static/media/face_model_3.9561619b.glb",
+    "static/media/hulk_1.glb": "/carloscaro.com/static/media/hulk_1.d2476bbe.glb",
     "static/media/iPhoneX-mockup.png": "/carloscaro.com/static/media/iPhoneX-mockup.a4b8d480.png",
     "static/media/icon-css-color.svg": "/carloscaro.com/static/media/icon-css-color.532cf96a.svg",
     "static/media/icon-git-color.svg": "/carloscaro.com/static/media/icon-git-color.387abe2c.svg",
@@ -23,12 +26,13 @@
     "static/media/iconBig-code.png": "/carloscaro.com/static/media/iconBig-code.09c50007.png",
     "static/media/iconBig-person.png": "/carloscaro.com/static/media/iconBig-person.3e8e3af8.png",
     "static/media/iconBig-ui.png": "/carloscaro.com/static/media/iconBig-ui.b80e2b58.png",
-    "static/media/newIcon-CC.svg": "/carloscaro.com/static/media/newIcon-CC.ac0778c8.svg"
+    "static/media/newIcon-CC.svg": "/carloscaro.com/static/media/newIcon-CC.ac0778c8.svg",
+    "static/media/resume-carlos-2020.pdf": "/carloscaro.com/static/media/resume-carlos-2020.6bd71b65.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.e1c7b954.js",
-    "static/js/2.91d1ac4b.chunk.js",
+    "static/js/2.a7386d6a.chunk.js",
     "static/css/main.4af4b905.chunk.css",
-    "static/js/main.d58ffe4f.chunk.js"
+    "static/js/main.f6e23953.chunk.js"
   ]
 }
