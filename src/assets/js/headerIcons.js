@@ -1,6 +1,6 @@
 import emailIcon from '../img/icon-mail.png';
 import resumeIcon from '../img/icon-resume.png';
-import resumePdf from '../docs/Resume-CarlosCaro-2020.pdf'
+import resumePdf from '../docs/resume-carlos-2020.pdf'
 
 export default
 [

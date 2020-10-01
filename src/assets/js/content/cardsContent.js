@@ -1,6 +1,7 @@
 import person from '../../img/iconBig-person.png';
 import frontEnd from '../../img/iconBig-code.png';
 import ui from '../../img/iconBig-ui.png';
+import featuredImg from '../../img/dribble-travel-app.png';
 import modeling3d from '../../img/iconBig-3d.png';
 
 export default [
@@ -45,7 +46,8 @@ export default [
             "I can work with tools such as Photoshop, Illustrator, and Adobe XD. I have find it extremely helpful on my daily basis as a " +
             "professional Front-End developer so I can create UI assets for personal or even contribute to professional " +
             "projects with designers.",
-        "img": ui
+        "img": ui,
+        "featured_img": featuredImg
     },
     {
         "label": "3dmodeling",

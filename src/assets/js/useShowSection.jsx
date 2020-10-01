@@ -1,6 +1,8 @@
 import React from 'react';
 import Sections from './content/cardsContent';
-import Iphone from '../../assets/img/iPhoneX-mockup.png'
+import Iphone from '../../assets/img/iPhoneX-mockup.png';
+import faceModel from '../../assets/img/face_model_3.glb';
+import Hulk from '../../assets/img/hulk_1.glb';
 
 
 const useShowSection = (props) => {
@@ -19,6 +21,7 @@ const useShowSection = (props) => {
                 <p className="leading-loose whitespace-pre-wrap sm:text-lg">
                     {show.content}
                 </p>
+                <img className="mt-4" src={show.featured_img} alt=""/>
                 <div className="absolute top-70 left-0 right-0 mx-auto">
                     <img className="m-auto" src={show.img} alt=""/>
                 </div>
@@ -36,6 +39,18 @@ const useShowSection = (props) => {
                     </div>
                     :
                     <p></p>
+                }
+                {(show.label === "3dmodeling")
+                    ?
+                    <model-viewer
+                        src={Hulk}
+                        auto-rotate camera-controls
+                        alt="3D model face"
+                        class="w-full z-50 h-64"
+                    >
+                    </model-viewer>
+                    :
+                    <p>could not load 3d file</p>
                 }
             </div>
         ))}
