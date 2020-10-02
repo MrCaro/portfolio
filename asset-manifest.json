@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/carloscaro.com/static/css/main.4af4b905.chunk.css",
-    "main.js": "/carloscaro.com/static/js/main.a264d87a.chunk.js",
-    "main.js.map": "/carloscaro.com/static/js/main.a264d87a.chunk.js.map",
+    "main.css": "/carloscaro.com/static/css/main.b7a0685f.chunk.css",
+    "main.js": "/carloscaro.com/static/js/main.1a9a9cc8.chunk.js",
+    "main.js.map": "/carloscaro.com/static/js/main.1a9a9cc8.chunk.js.map",
     "runtime-main.js": "/carloscaro.com/static/js/runtime-main.e1c7b954.js",
     "runtime-main.js.map": "/carloscaro.com/static/js/runtime-main.e1c7b954.js.map",
-    "static/js/2.a7386d6a.chunk.js": "/carloscaro.com/static/js/2.a7386d6a.chunk.js",
-    "static/js/2.a7386d6a.chunk.js.map": "/carloscaro.com/static/js/2.a7386d6a.chunk.js.map",
+    "static/js/2.5385f7e8.chunk.js": "/carloscaro.com/static/js/2.5385f7e8.chunk.js",
+    "static/js/2.5385f7e8.chunk.js.map": "/carloscaro.com/static/js/2.5385f7e8.chunk.js.map",
     "index.html": "/carloscaro.com/index.html",
-    "precache-manifest.730526ef7167cff93a6d6665059fb76b.js": "/carloscaro.com/precache-manifest.730526ef7167cff93a6d6665059fb76b.js",
+    "precache-manifest.3cd78c537ce4c3b4f96dd3a0ed6cef09.js": "/carloscaro.com/precache-manifest.3cd78c537ce4c3b4f96dd3a0ed6cef09.js",
     "service-worker.js": "/carloscaro.com/service-worker.js",
-    "static/css/main.4af4b905.chunk.css.map": "/carloscaro.com/static/css/main.4af4b905.chunk.css.map",
-    "static/js/2.a7386d6a.chunk.js.LICENSE.txt": "/carloscaro.com/static/js/2.a7386d6a.chunk.js.LICENSE.txt",
+    "static/css/main.b7a0685f.chunk.css.map": "/carloscaro.com/static/css/main.b7a0685f.chunk.css.map",
+    "static/js/2.5385f7e8.chunk.js.LICENSE.txt": "/carloscaro.com/static/js/2.5385f7e8.chunk.js.LICENSE.txt",
     "static/media/Resume-CarlosCaro-2020.pdf": "/carloscaro.com/static/media/Resume-CarlosCaro-2020.45550585.pdf",
+    "static/media/bottlePink.png": "/carloscaro.com/static/media/bottlePink.1a9928db.png",
     "static/media/dribble-travel-app.png": "/carloscaro.com/static/media/dribble-travel-app.36a9812d.png",
+    "static/media/hulk-model.glb": "/carloscaro.com/static/media/hulk-model.5b4246d7.glb",
     "static/media/iPhoneX-mockup.png": "/carloscaro.com/static/media/iPhoneX-mockup.a4b8d480.png",
     "static/media/icon-css-color.svg": "/carloscaro.com/static/media/icon-css-color.532cf96a.svg",
     "static/media/icon-git-color.svg": "/carloscaro.com/static/media/icon-git-color.387abe2c.svg",
@@ -30,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e1c7b954.js",
-    "static/js/2.a7386d6a.chunk.js",
-    "static/css/main.4af4b905.chunk.css",
-    "static/js/main.a264d87a.chunk.js"
+    "static/js/2.5385f7e8.chunk.js",
+    "static/css/main.b7a0685f.chunk.css",
+    "static/js/main.1a9a9cc8.chunk.js"
   ]
 }
