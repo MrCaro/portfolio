@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/carloscaro.com/static/css/main.4af4b905.chunk.css",
-    "main.js": "/carloscaro.com/static/js/main.efe25d74.chunk.js",
-    "main.js.map": "/carloscaro.com/static/js/main.efe25d74.chunk.js.map",
+    "main.js": "/carloscaro.com/static/js/main.a264d87a.chunk.js",
+    "main.js.map": "/carloscaro.com/static/js/main.a264d87a.chunk.js.map",
     "runtime-main.js": "/carloscaro.com/static/js/runtime-main.e1c7b954.js",
     "runtime-main.js.map": "/carloscaro.com/static/js/runtime-main.e1c7b954.js.map",
     "static/js/2.a7386d6a.chunk.js": "/carloscaro.com/static/js/2.a7386d6a.chunk.js",
     "static/js/2.a7386d6a.chunk.js.map": "/carloscaro.com/static/js/2.a7386d6a.chunk.js.map",
     "index.html": "/carloscaro.com/index.html",
-    "precache-manifest.610567d04988004f2be18fd5583d2fec.js": "/carloscaro.com/precache-manifest.610567d04988004f2be18fd5583d2fec.js",
+    "precache-manifest.730526ef7167cff93a6d6665059fb76b.js": "/carloscaro.com/precache-manifest.730526ef7167cff93a6d6665059fb76b.js",
     "service-worker.js": "/carloscaro.com/service-worker.js",
     "static/css/main.4af4b905.chunk.css.map": "/carloscaro.com/static/css/main.4af4b905.chunk.css.map",
     "static/js/2.a7386d6a.chunk.js.LICENSE.txt": "/carloscaro.com/static/js/2.a7386d6a.chunk.js.LICENSE.txt",
@@ -24,14 +24,14 @@
     "static/media/iconBig-code.png": "/carloscaro.com/static/media/iconBig-code.09c50007.png",
     "static/media/iconBig-person.png": "/carloscaro.com/static/media/iconBig-person.3e8e3af8.png",
     "static/media/iconBig-ui.png": "/carloscaro.com/static/media/iconBig-ui.b80e2b58.png",
+    "static/media/model.glb": "/carloscaro.com/static/media/model.ab35ea00.glb",
     "static/media/newIcon-CC.svg": "/carloscaro.com/static/media/newIcon-CC.ac0778c8.svg",
-    "static/media/resume-carlos-2020.pdf": "/carloscaro.com/static/media/resume-carlos-2020.6bd71b65.pdf",
-    "static/media/scene.glb": "/carloscaro.com/static/media/scene.03bf4be4.glb"
+    "static/media/resume-carlos-2020.pdf": "/carloscaro.com/static/media/resume-carlos-2020.6bd71b65.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.e1c7b954.js",
     "static/js/2.a7386d6a.chunk.js",
     "static/css/main.4af4b905.chunk.css",
-    "static/js/main.efe25d74.chunk.js"
+    "static/js/main.a264d87a.chunk.js"
   ]
 }
