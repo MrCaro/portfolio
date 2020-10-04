@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "53bab1842520e5ab7404f39eecac5da9",
+    "revision": "1f8a0db8fe48efba41f4adbee7be5255",
     "url": "/carloscaro.com/index.html"
   },
   {
-    "revision": "1ef963c1634e9e5ba9cd",
-    "url": "/carloscaro.com/static/css/main.d7d4b254.chunk.css"
+    "revision": "d09bcf4b21b9f50be212",
+    "url": "/carloscaro.com/static/css/main.bb5d8ae1.chunk.css"
   },
   {
     "revision": "717e165cb6a3db114065",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/carloscaro.com/static/js/2.5385f7e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ef963c1634e9e5ba9cd",
-    "url": "/carloscaro.com/static/js/main.53eb1f79.chunk.js"
+    "revision": "d09bcf4b21b9f50be212",
+    "url": "/carloscaro.com/static/js/main.67bf94c5.chunk.js"
   },
   {
     "revision": "63714772d68d1ebf3686",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "62a021bf2efe0dc110dbd724edd33dc5",
     "url": "/carloscaro.com/static/media/bottlePink-trans.62a021bf.png"
+  },
+  {
+    "revision": "befccc727ef9a38b0b718334702e1f6a",
+    "url": "/carloscaro.com/static/media/charlie-3d.befccc72.png"
   },
   {
     "revision": "36a9812d88b04a96ec27277cfa7626ea",
@@ -74,10 +78,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b80e2b58d6f2691f7c64e17e229abfe5",
     "url": "/carloscaro.com/static/media/iconBig-ui.b80e2b58.png"
-  },
-  {
-    "revision": "cebc0a9032f8c5c3a989897aae40a8f4",
-    "url": "/carloscaro.com/static/media/memoji-charlie.cebc0a90.png"
   },
   {
     "revision": "ab35ea009d5e0c374760b7b0f922d06a",
