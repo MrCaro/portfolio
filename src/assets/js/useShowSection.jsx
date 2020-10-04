@@ -1,8 +1,9 @@
 import React from 'react';
 import Sections from './content/cardsContent';
 import Iphone from '../../assets/img/iPhoneX-mockup.png';
-import faceModel from '../../assets/img/face_model_3.glb';
-import Hulk from '../../assets/img/hulk_1.glb';
+import UiDesign from '../../assets/img/bottlePink-trans.png';
+import ProfilePic from '../../assets/img/memoji-charlie.png';
+import Render3D from '../../assets/img/model.glb';
 
 
 const useShowSection = (props) => {
@@ -21,36 +22,92 @@ const useShowSection = (props) => {
                 <p className="leading-loose whitespace-pre-wrap sm:text-lg">
                     {show.content}
                 </p>
-                <img className="mt-4" src={show.featured_img} alt=""/>
                 <div className="absolute top-70 left-0 right-0 mx-auto">
                     <img className="m-auto" src={show.img} alt=""/>
                 </div>
+                {(show.label === "aboutme")
+                    ?
+                    <img className="m-auto mt-8" src={ProfilePic} alt=""/>
+                    :
+                   <p></p>
+                }
                 {(show.label === "frontend")
                     ?
-                    <div className="absolute" style={{top: "100%"}}>
-                        <img src={Iphone} alt=""/>
-                        <div className="iframe-wrapper">
-                            <iframe
-                                src="https://travel-app-carlos-caro.herokuapp.com/"
-                                id="iframe-mobile"
-                            >
-                            </iframe>
+                    <div className="wrapper-projects-front-end">
+                        <div className="relative">
+                            <p>
+                                <a
+                                    href="https://www.hootenyoung.com/product/american-whiskey/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Hooten Young Landing Page - Full Landing Page Dev (shown in mobile iframe)
+                                </a>
+                            </p>
+                            <br/>
+                            <p>
+                                <a
+                                    href="https://hf.org/ahap/medicare/learn_more/seminars/index.cfm"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Health First AHAP Seminar - Full Page Redesign
+                                </a>
+                            </p>
+                            <br/>
+                            <p>
+                                <a
+                                    href="https://travel-app-carlos-caro.herokuapp.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Travel App - Full Site Dev
+                                </a>
+                            </p>
+                            <br/>
+                            <p>
+                                <a
+                                    href="https://mablog.hf.org/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Health First Blog Site - Full Site Dev
+                                </a>
+                            </p>
+                        </div>
+                        <div className="absolute" style={{top: "100%"}}>
+                            <img src={Iphone} alt=""/>
+                            <div className="iframe-wrapper">
+                                <p>Loading...</p>
+                                <iframe
+                                    className=""
+                                    src="https://www.hootenyoung.com/product/american-whiskey/"
+                                    id="iframe-mobile"
+                                >
+                                </iframe>
+                            </div>
                         </div>
                     </div>
                     :
                     <p></p>
                 }
+                {(show.label === "uidesign")
+                    ?
+                    <img className="dr-freeze mt-8" src={UiDesign} alt=""/>
+                    :
+                   <p></p>
+                }
                 {(show.label === "3dmodeling")
                     ?
                     <model-viewer
-                        src={Hulk}
+                        src={Render3D}
                         auto-rotate camera-controls
                         alt="3D model face"
-                        class="w-full z-50 h-64"
+                        class="w-full z-50"
                     >
                     </model-viewer>
                     :
-                    <p>could not load 3d file</p>
+                   <p></p>
                 }
             </div>
         ))}

@@ -14,7 +14,7 @@ export default
         "title": "About Me",
         "icon": about,
         "icon_inactive": about_icon_inactive,
-        "description": "Hello there and welcome, just a little intro…",
+        "description": "Hello there and welcome…",
     },
     {
         "label": "frontend",

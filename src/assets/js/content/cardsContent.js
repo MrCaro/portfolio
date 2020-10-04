@@ -8,13 +8,10 @@ export default [
     {
         "label": "aboutme",
         "title": "About Me",
-        "subtitle": "Hello there and welcome, just a little introduction",
+        "subtitle": "Hello there and welcome 👋",
         "content":
-            "Hi 👋" +
-            "\n" +
-            "My name is Carlos and I am a Front End Developer located in Orlando, FL. I have been working as a developer for the past 2 years. I would describe myself as a dev always willing to step " +
-            "out of its comfort zone to tackle new projects. My goal is to keep on learning and work on challenging yet fun projects where I can bring digital experiences alive. I am currently learning react " +
-            "since I did find fascinating the principles of component-based and states in order to make UI while having reusable and easily scalable code." +
+            "My name is Carlos also known as Charlie and I am a Front End Developer located in Orlando, FL. I have been working as a Front End Developer for the past 2 years and loving the " +
+            "path so far. Born and raised in Caracas, Venezuela I moved to the US in August, 2012 to pursue my college degree. Spent the last 6-7 years in MIA before deciding to move to Orlando." +
             "\n\n" +
             "Apart from coding I have a passion for UI design and 3D modeling which you can find on the other sections of my portfolio. While not geeking about coding, UI, or 3D you can find " +
             "me playing videos games or soccer.",
@@ -30,8 +27,7 @@ export default [
             "custom wp plug in, also developing custom responsive emails for marketing campaigns using MJML, creating landing pages, custom hooks on Zapier, and more. " +
             "\n\n " +
             "As a Front-End developer my ultimate goal is to bring unforgettable digital experiences alive." +
-            "\n\n" +
-            "Check one of my personal projects by interacting with the iPhone below (created with laravel + vue) 👇",
+            "\n\n",
         "img": frontEnd
     },
     {
@@ -43,7 +39,7 @@ export default [
             "to educate myself with overall digital design instead on only focusing on the coding. This is something that I do for mere fun, " +
             "I am not a professional UI designer but I would definitely love to learn more and have a combination of design/coding in my career." +
             "\n\n" +
-            "I can work with tools such as Photoshop, Illustrator, and Adobe XD. I have find it extremely helpful on my daily basis as a " +
+            "I can work with softwares such as Photoshop, Illustrator, and Adobe XD. I have find it extremely helpful on my daily basis as a " +
             "professional Front-End developer so I can create UI assets for personal or even contribute to professional " +
             "projects with designers.",
         "img": ui,

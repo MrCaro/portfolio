@@ -14584,6 +14584,7 @@ video {
   --font-primary-color: #ffff;
   --neumorphism-shadow: -5px -5px 15px 0 #7070705c, 5px 5px 15px 0 #0000008c;
   --card-gradient-hover: linear-gradient(-45deg, #7070705c, transparent, #0000008c);
+  --accent-color: #FF2E5B;
 }
 
 /*dark mode vars*/
@@ -14594,6 +14595,7 @@ video {
   --font-primary-color: gray;
   --neumorphism-shadow: -5px -5px 15px 0 #ffff, 5px 5px 15px 0 #4252801a;
   --card-gradient-hover: linear-gradient(-45deg, #ffff, transparent, #4252801a);
+  --accent-color: #FF2E5B;
 }
 
 /*change theme toggle switch*/
@@ -14719,6 +14721,12 @@ p {
   overflow: hidden;
 }
 
+.iframe-wrapper p {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+
 #iframe-mobile, iframe {
   position: absolute;
   top: 0;
@@ -14730,6 +14738,10 @@ p {
   border-radius: 25px !important;
   -webkit-border-radius: 25px !important;
   -moz-border-radius: 25px !important;
+}
+
+model-viewer {
+  height: 400px;
 }
 
 #logo {
@@ -14750,8 +14762,11 @@ p {
 }
 
 #swipe {
-  animation         : swipeAnim 2s infinite alternate;
   position: absolute;
+  animation         : swipeAnim 2s infinite alternate;
+  -webkit-animation : swipeAnim 2s infinite alternate;
+  -moz-animation    : swipeAnim 2s infinite alternate;
+  -o-animation      : swipeAnim 2s infinite alternate;
 }
 
 @keyframes swipeAnim {
@@ -14780,7 +14795,7 @@ p {
 }
 
 .sub-title > span {
-  color: #FF2E5B;
+  color: var(--accent-color);
 }
 
 #learnMore {
@@ -14803,7 +14818,6 @@ p {
 
 .card {
   border-radius: 10px;
-  /*border: solid 1px #70707012;*/
 }
 
 .mainCtas {
@@ -14822,6 +14836,35 @@ p {
 
 .mainCtas:hover, .smallCtas:hover {
   background-image: var(--card-gradient-hover);
+}
+
+.wrapper-projects-front-end .relative a {
+  color: var(--font-primary-color);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.wrapper-projects-front-end .relative a:hover {
+  color: var(--accent-color);
+}
+
+.dr-freeze {
+  margin: auto;
+  position: relative;
+  animation: up-down 2s infinite alternate;
+  -webkit-animation: up-down 2s infinite alternate;
+  -moz-animation: up-down 2s infinite alternate;
+  -o-animation: up-down 2s infinite alternate;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 #wrapper-preloader {
@@ -14864,7 +14907,10 @@ p {
             0 10px 15px #ffffff60,
             0 10px 20px 20px #ffffff40;
   filter: blur(3px);
-  animation: 2s rotate linear infinite;
+  animation: rotate 2s linear infinite;
+  -webkit-animation: rotate 2s linear infinite;
+  -moz-animation: rotate 2s linear infinite;
+  -o-animation: rotate 2s linear infinite;
 }
 
 @keyframes rotate {
