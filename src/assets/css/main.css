@@ -14848,7 +14848,7 @@ model-viewer {
   color: var(--accent-color);
 }
 
-.dr-freeze {
+.charlie-3d, .dr-freeze {
   margin: auto;
   position: relative;
   animation: up-down 2s infinite alternate;

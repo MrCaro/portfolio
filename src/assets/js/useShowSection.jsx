@@ -2,7 +2,7 @@ import React from 'react';
 import Sections from './content/cardsContent';
 import Iphone from '../../assets/img/iPhoneX-mockup.png';
 import UiDesign from '../../assets/img/bottlePink-trans.png';
-import ProfilePic from '../../assets/img/memoji-charlie.png';
+import ProfilePic from '../../assets/img/charlie-3d-1.png';
 import Render3D from '../../assets/img/model.glb';
 
 
@@ -27,7 +27,7 @@ const useShowSection = (props) => {
                 </div>
                 {(show.label === "aboutme")
                     ?
-                    <img className="m-auto mt-8" src={ProfilePic} alt=""/>
+                    <img className="m-auto mt-8 relative charlie-3d" src={ProfilePic} alt=""/>
                     :
                    <p></p>
                 }
