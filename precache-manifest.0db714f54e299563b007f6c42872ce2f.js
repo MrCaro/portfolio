@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f8a0db8fe48efba41f4adbee7be5255",
+    "revision": "7fe3b8cd38690ed2bb04faf621420635",
     "url": "/carloscaro.com/index.html"
   },
   {
-    "revision": "d09bcf4b21b9f50be212",
+    "revision": "47273cf2109e8cedc74e",
     "url": "/carloscaro.com/static/css/main.bb5d8ae1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/carloscaro.com/static/js/2.5385f7e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d09bcf4b21b9f50be212",
-    "url": "/carloscaro.com/static/js/main.67bf94c5.chunk.js"
+    "revision": "47273cf2109e8cedc74e",
+    "url": "/carloscaro.com/static/js/main.f6f2f8fc.chunk.js"
   },
   {
     "revision": "63714772d68d1ebf3686",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/carloscaro.com/static/media/bottlePink-trans.62a021bf.png"
   },
   {
-    "revision": "befccc727ef9a38b0b718334702e1f6a",
-    "url": "/carloscaro.com/static/media/charlie-3d.befccc72.png"
+    "revision": "4749207ac586a01ef8d31cfb2c3112f3",
+    "url": "/carloscaro.com/static/media/charlie-3d-1.4749207a.png"
   },
   {
     "revision": "36a9812d88b04a96ec27277cfa7626ea",
